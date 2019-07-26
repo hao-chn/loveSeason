@@ -1,0 +1,19 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "loveSeason",
+				// "navigationBarTextStyle": "#182f59" 字体颜色
+				"navigationBarBackgroundColor": "#182f59"
+				// "backgroundColor": "#182f59"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "red",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
