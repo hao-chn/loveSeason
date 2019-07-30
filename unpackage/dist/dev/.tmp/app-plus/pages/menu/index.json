@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "恋爱季",
+  "bounce": "vertical",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "/static/logo.png",
+        "fontSize": "22px",
+        "color": "#182f59"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

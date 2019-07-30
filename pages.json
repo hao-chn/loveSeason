@@ -1,19 +1,117 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "loveSeason",
+		// 		// "navigationBarTextStyle": "#182f59" 字体颜色
+		// 		"navigationBarBackgroundColor": "#182f59",
+		// 		// "backgroundColor": "#182f59"
+		// 		// "navigationBarTextStyle": "black",
+		// 		// "navigationBarTitleText": "Hello uniapp",
+		// 		// "navigationBarBackgroundColor": "#F8F8F8",
+		// 		"backgroundColor": "#F8F8F8",
+		// 		"backgroundColorTop": "#F4F5F6",
+		// 		"backgroundColorBottom": "#F4F5F6",
+		// 		"mp-alipay": {
+		// 			"titleBarColor": "#FFFFFF"
+		// 		}
+		// 	}
+		// },
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "loveSeason",
-				// "navigationBarTextStyle": "#182f59" 字体颜色
-				"navigationBarBackgroundColor": "#182f59"
-				// "backgroundColor": "#182f59"
+				"navigationBarTitleText": "恋爱季",
+				"navigationBarBackgroundColor": "#182f59",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/logo.png",
+							"fontSize": "22px",
+							"color": "#182f59"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/menu/index",
+			"style": {
+				"navigationBarTitleText": "恋爱季",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/logo.png",
+							"fontSize": "22px",
+							"color": "#182f59"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/index",
+			"style": {
+				"navigationBarTitleText": "Dear",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/logo.png",
+							"fontSize": "22px",
+							"color": "#182f59"
+						}]
+					}
+				}
 			}
 		}
+		
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "red",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8", //tab颜色
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab/tab_love_1.png",
+				"selectedIconPath": "static/tab/tab_love.png",
+				"text": "Season"
+			},{
+				"pagePath": "pages/menu/index",
+				"iconPath": "static/tab/tab_clover_1.png",
+				"selectedIconPath": "static/tab/tab_clover.png",
+				"text": "Love"
+			} ,
+			{
+				"pagePath": "pages/tabBar/index",
+				"iconPath": "static/tab/tab_key_1.png",
+				"selectedIconPath": "static/tab/tab_key.png",
+				"text": "Dream"
+			}
+			
+			// 	"pagePath": "pages/tabBar/extUI/extUI",
+			// 	"iconPath": "static/extui.png",
+			// 	"selectedIconPath": "static/extuiHL.png",
+			// 	"text": "扩展组件"
+			// }, {
+			// 	"pagePath": "pages/tabBar/template/template",
+			// 	"iconPath": "static/template.png",
+			// 	"selectedIconPath": "static/templateHL.png",
+			// 	"text": "模板"
+			// }
+		]
 	}
 }

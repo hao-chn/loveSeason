@@ -1,0 +1,23 @@
+{
+  "name": "loveSeason",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hao-chn/loveSeason.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hao-chn/loveSeason/issues"
+  },
+  "homepage": "https://github.com/hao-chn/loveSeason#readme",
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.0.0"
+  }
+}
