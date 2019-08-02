@@ -11,5 +11,7 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {
+    "uni-swipe-action": "/node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action"
+  }
 }
