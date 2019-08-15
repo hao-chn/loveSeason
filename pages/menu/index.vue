@@ -78,7 +78,12 @@ export default {
 	onLoad() {},
 	methods: {
 		trigger(e) {
-			console.log(e);
+			console.log(e,'81');
+			this.content.map(v => {
+				console.log(v,'83')
+				v.active = false
+			})
+			// this.trigger()
 			// this.content[e.index].active = !e.item.active;
 			uni.showModal({
 				title: '提示',
