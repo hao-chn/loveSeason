@@ -30,13 +30,13 @@
 			</li>
 		</ul>
 
-		<view class="graduateount">
-			<h3 style='text-align: center;'>灰心生失望，失望生动摇，动摇生失败。</h3>
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+		<view class="graduateount" style="margin: 40rpx 0 40rpx;">
+			<h3 style='text-align: center;font-size: 36rpx;color: #ccc;'>灰心生失望，失望生动摇，动摇生失败。</h3>
+			<ul style='font-size: 24rpx;color: #fff;'>
+				<li>{{ graduateount.d | add() }}</li>
+				<li>{{ graduateount.h | add() }}</li>
+				<li>{{ graduateount.m | add() }}</li>
+				<li>{{ graduateount.s | add() }}</li>
 			</ul>
 		</view>
 	</view>
@@ -105,6 +105,7 @@ export default {
 	onLoad() {
 		setInterval(() => {
 			this.fun();
+			this.fun1()
 		}, 1000);
 		// 定位
 		navigator.geolocation.getCurrentPosition(
@@ -124,20 +125,20 @@ export default {
 				);
 			},
 			error => {
-				// switch (error.code) {
-				//     case error.PERMISSION_DENIED:
-				//         alert("定位失败,拒绝请求地理定位,请退出刷新重试");
-				//         break;
-				//     case error.POSITION_UNAVAILABLE:
-				//         alert("定位失败,位置信息是不可用,请退出刷新重试");
-				//         break;
-				//     case error.TIMEOUT:
-				//         alert("定位失败,请求获取用户位置超时,请退出刷新重试");
-				//         break;
-				//     case error.UNKNOWN_ERROR:
-				//         alert("定位失败,定位系统失效,请退出刷新重试");
-				//         break;
-				// }
+				switch (error.code) {
+				    case error.PERMISSION_DENIED:
+				        alert("定位失败,拒绝请求地理定位,请退出刷新重试");
+				        break;
+				    case error.POSITION_UNAVAILABLE:
+				        alert("定位失败,位置信息是不可用,请退出刷新重试");
+				        break;
+				    case error.TIMEOUT:
+				        alert("定位失败,请求获取用户位置超时,请退出刷新重试");
+				        break;
+				    case error.UNKNOWN_ERROR:
+				        alert("定位失败,定位系统失效,请退出刷新重试");
+				        break;
+				}
 			},
 			{
 				enableHighAcuracy: true, // 指示浏览器获取高精度的位置，默认为false
@@ -155,6 +156,31 @@ export default {
 			this.time.m = parseInt(T / 60) % 60;
 			this.time.h = parseInt(T / 3600) % 24;
 			this.time.d = parseInt(T / (3600 * 24));
+		},
+		fun1() {
+			let presentTime = new Date();
+			let endTime = new Date('2019/12/22');
+			let T = parseInt((endTime - presentTime ) / 1000);
+			this.graduateount.s = T % 60;
+			this.graduateount.m = parseInt(T / 60) % 60;
+			this.graduateount.h = parseInt(T / 3600) % 24;
+			this.graduateount.d = parseInt(T / (3600 * 24));
+		},
+		
+		
+		
+		getCommon(presentTime,endTime){
+			let p = presentTime || new Date();
+			let e = new Date('2019/12/22');
+			let s,m,h,d;
+			let T = parseInt((e - p ) / 1000);
+			s = T % 60;
+			m = parseInt(T / 60) % 60;
+			h = parseInt(T / 3600) % 24;
+			d = parseInt(T / (3600 * 24));
+			
+			
+			
 		},
 		change(e) {
 			this.current = e.detail.current;
@@ -210,5 +236,9 @@ footer {
 	color: #ccc;
 	font-size: 60rpx;
 	margin-top: 20rpx;
+}
+
+.graduateount li{
+	font-size: 44rpx;
 }
 </style>

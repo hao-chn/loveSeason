@@ -13,7 +13,7 @@
 	padding: 10rpx 5rpx;
 	width: 85%;
 	font-size: 14rpx;
-	font-family: "\6977\4E66";
+	font-family: '\6977\4E66';
 	border-radius: 20rpx;
 }
 ._ul ._li ._span:nth-child(1) {
@@ -27,12 +27,15 @@
 ._nav {
 	font-size: 88rpx;
 	color: aliceblue;
-	font-family: "\6977\4E66";
+	font-family: '\6977\4E66';
 	padding: 200rpx 0 50rpx;
 }
 ._footer {
 	color: #ccc;
 	font-size: 60rpx;
 	margin-top: 20rpx;
+}
+.graduateount ._li{
+	font-size: 44rpx;
 }
 

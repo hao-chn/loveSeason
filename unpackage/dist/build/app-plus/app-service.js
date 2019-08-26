@@ -1060,57 +1060,166 @@ function gz$gwx_1(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_1)return __WXML_GLOBAL__.ops_cached.$gwx_1
 __WXML_GLOBAL__.ops_cached.$gwx_1=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'uni-swiper__warp'])
-Z([[2,'==='],[[7],[3,'mode']],[1,'default']])
-Z([[2,'==='],[[7],[3,'mode']],[1,'long']])
-Z([[2,'==='],[[7],[3,'mode']],[1,'nav']])
-Z([[2,'==='],[[7],[3,'mode']],[1,'indexes']])
+Z([3,'__e'])
+Z([[4],[[5],[[5],[[5],[1,'uni-card']],[[2,'?:'],[[2,'||'],[[2,'==='],[[7],[3,'isFull']],[1,true]],[[2,'==='],[[7],[3,'isFull']],[1,'true']]],[1,'uni-card--full'],[1,'']]],[[2,'?:'],[[2,'||'],[[2,'==='],[[7],[3,'isShadow']],[1,true]],[[2,'==='],[[7],[3,'isShadow']],[1,'true']]],[1,'uni-card--shadow'],[1,'']]]])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'onClick']],[[4],[[5],[1,'$event']]]]]]]]]]])
+Z([[2,'==='],[[7],[3,'mode']],[1,'style']])
+Z([[7],[3,'title']])
+Z([[2,'==='],[[7],[3,'mode']],[1,'title']])
+Z([[2,'&&'],[[2,'==='],[[7],[3,'mode']],[1,'basic']],[[7],[3,'title']]])
+Z([3,'uni-card__header'])
+Z([[7],[3,'thumbnail']])
+Z([[7],[3,'extra']])
+Z([3,'uni-card__content uni-card__content--pd'])
+Z([[2,'&&'],[[2,'==='],[[7],[3,'mode']],[1,'style']],[[7],[3,'extra']]])
+Z([[7],[3,'note']])
+Z([3,'uni-card__footer'])
+Z([[6],[[7],[3,'$slots']],[3,'footer']])
+Z([3,'footer'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_1);return __WXML_GLOBAL__.ops_cached.$gwx_1
 }
 function gz$gwx_2(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_2)return __WXML_GLOBAL__.ops_cached.$gwx_2
 __WXML_GLOBAL__.ops_cached.$gwx_2=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[4],[[5],[[5],[[5],[[5],[[5],[[5],[1,'fab-content data-v-171fec07']],[[2,'?:'],[[2,'==='],[[7],[3,'horizontal']],[1,'left']],[1,'left'],[1,'']]],[[2,'?:'],[[2,'==='],[[7],[3,'horizontal']],[1,'right']],[1,'right'],[1,'']]],[[2,'?:'],[[2,'==='],[[7],[3,'direction']],[1,'vertical']],[1,'flexDirection'],[1,'']]],[[2,'?:'],[[7],[3,'flexDirectionStart']],[1,'flexDirectionStart'],[1,'']]],[[2,'?:'],[[7],[3,'flexDirectionEnd']],[1,'flexDirectionEnd'],[1,'']]]])
+Z([[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[1,'width:'],[[7],[3,'boxWidth']]],[1,';']],[[2,'+'],[[2,'+'],[1,'height:'],[[7],[3,'boxHeight']]],[1,';']]],[[2,'+'],[[2,'+'],[1,'background:'],[[6],[[7],[3,'styles']],[3,'backgroundColor']]],[1,';']]])
+Z([[2,'||'],[[7],[3,'flexDirectionStart']],[[7],[3,'horizontalLeft']]])
+Z([[2,'||'],[[7],[3,'flexDirectionEnd']],[[7],[3,'horizontalRight']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_2);return __WXML_GLOBAL__.ops_cached.$gwx_2
 }
 function gz$gwx_3(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
 __WXML_GLOBAL__.ops_cached.$gwx_3=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'uni-swipe-action'])
+Z([3,'__e'])
+Z(z[1])
+Z(z[1])
+Z(z[1])
+Z(z[1])
+Z([[4],[[5],[[5],[1,'uni-swipe-action__container']],[[2,'?:'],[[7],[3,'isShowBtn']],[1,'uni-swipe-action--show'],[1,'']]]])
+Z([[4],[[5],[[5],[[5],[[5],[[5],[[4],[[5],[[5],[1,'touchstart']],[[4],[[5],[[4],[[5],[[5],[1,'touchStart']],[[4],[[5],[1,'$event']]]]]]]]]],[[4],[[5],[[5],[1,'touchmove']],[[4],[[5],[[4],[[5],[[5],[1,'touchMove']],[[4],[[5],[1,'$event']]]]]]]]]],[[4],[[5],[[5],[1,'touchend']],[[4],[[5],[[4],[[5],[[5],[1,'touchEnd']],[[4],[[5],[1,'$event']]]]]]]]]],[[4],[[5],[[5],[1,'touchcancel']],[[4],[[5],[[4],[[5],[[5],[1,'touchEnd']],[[4],[[5],[1,'$event']]]]]]]]]],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'bindClickCont']],[[4],[[5],[1,'$event']]]]]]]]]]])
+Z([[2,'+'],[[2,'+'],[[2,'+'],[1,'transform:'],[[7],[3,'transformX']]],[1,';']],[[2,'+'],[[2,'+'],[1,'-webkit-transform:'],[[7],[3,'transformX']]],[1,';']]])
+Z([[7],[3,'isShowBtn']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
 }
 function gz$gwx_4(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
 __WXML_GLOBAL__.ops_cached.$gwx_4=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'uni-swiper__warp'])
+Z([[2,'==='],[[7],[3,'mode']],[1,'default']])
+Z([[2,'==='],[[7],[3,'mode']],[1,'long']])
+Z([[2,'==='],[[7],[3,'mode']],[1,'nav']])
+Z([[2,'==='],[[7],[3,'mode']],[1,'indexes']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
+}
+function gz$gwx_5(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
+__WXML_GLOBAL__.ops_cached.$gwx_5=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
+}
+function gz$gwx_6(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
+__WXML_GLOBAL__.ops_cached.$gwx_6=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'_div'])
+Z([3,'i'])
+Z([3,'v'])
+Z([[7],[3,'uniCardList']])
+Z(z[1])
+Z([[6],[[7],[3,'uniCardList']],[3,'length']])
+Z([3,'__l'])
+Z([[6],[[7],[3,'v']],[3,'extra']])
+Z([3,'true'])
+Z([[6],[[7],[3,'v']],[3,'note']])
+Z([[6],[[7],[3,'v']],[3,'thumbnail']])
+Z([[6],[[7],[3,'v']],[3,'title']])
+Z([[2,'+'],[1,'1-'],[[7],[3,'i']]])
+Z([[4],[[5],[[5],[1,'default']],[1,'footer']]])
+Z(z[6])
+Z([3,'__e'])
+Z([[7],[3,'content']])
+Z([[4],[[5],[[4],[[5],[[5],[1,'^trigger']],[[4],[[5],[[4],[[5],[1,'trigger']]]]]]]]])
+Z([[7],[3,'direction']])
+Z([[7],[3,'horizontal']])
+Z([[7],[3,'pattern']])
+Z([[7],[3,'vertical']])
+Z([3,'2'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
+}
+function gz$gwx_7(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
+__WXML_GLOBAL__.ops_cached.$gwx_7=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot.wxml','./pages/index/index.wxml','./pages/menu/index.wxml','./pages/tabBar/index.wxml'];d_[x[0]]={}
+var x=['./node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card.wxml','./node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab.wxml','./node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action.wxml','./node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot.wxml','./pages/index/index.wxml','./pages/menu/index.wxml','./pages/tabBar/index.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
-var oB=_n('view')
-_rz(z,oB,'class',0,e,s,gg)
-var hG=_n('slot')
-_(oB,hG)
+var oB=_mz(z,'view',['bindtap',0,'class',1,'data-event-opts',1],[],e,s,gg)
 var xC=_v()
 _(oB,xC)
-if(_oz(z,1,e,s,gg)){xC.wxVkey=1
+if(_oz(z,3,e,s,gg)){xC.wxVkey=1
+var hG=_v()
+_(xC,hG)
+if(_oz(z,4,e,s,gg)){hG.wxVkey=1
+}
+hG.wxXCkey=1
 }
 var oD=_v()
 _(oB,oD)
-if(_oz(z,2,e,s,gg)){oD.wxVkey=1
+if(_oz(z,5,e,s,gg)){oD.wxVkey=1
 }
 var fE=_v()
 _(oB,fE)
-if(_oz(z,3,e,s,gg)){fE.wxVkey=1
+if(_oz(z,6,e,s,gg)){fE.wxVkey=1
+var oH=_n('view')
+_rz(z,oH,'class',7,e,s,gg)
+var cI=_v()
+_(oH,cI)
+if(_oz(z,8,e,s,gg)){cI.wxVkey=1
 }
+var oJ=_v()
+_(oH,oJ)
+if(_oz(z,9,e,s,gg)){oJ.wxVkey=1
+}
+cI.wxXCkey=1
+oJ.wxXCkey=1
+_(fE,oH)
+}
+var lK=_n('view')
+_rz(z,lK,'class',10,e,s,gg)
+var aL=_v()
+_(lK,aL)
+if(_oz(z,11,e,s,gg)){aL.wxVkey=1
+}
+var tM=_n('slot')
+_(lK,tM)
+aL.wxXCkey=1
+_(oB,lK)
 var cF=_v()
 _(oB,cF)
-if(_oz(z,4,e,s,gg)){cF.wxVkey=1
+if(_oz(z,12,e,s,gg)){cF.wxVkey=1
+var eN=_n('view')
+_rz(z,eN,'class',13,e,s,gg)
+var bO=_v()
+_(eN,bO)
+if(_oz(z,14,e,s,gg)){bO.wxVkey=1
+var oP=_n('slot')
+_rz(z,oP,'name',15,e,s,gg)
+_(bO,oP)
+}
+else{bO.wxVkey=2
+}
+bO.wxXCkey=1
+_(cF,eN)
 }
 xC.wxXCkey=1
 oD.wxXCkey=1
@@ -1123,21 +1232,110 @@ e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
 d_[x[1]]={}
 var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
+var oR=_mz(z,'view',['class',0,'style',1],[],e,s,gg)
+var fS=_v()
+_(oR,fS)
+if(_oz(z,2,e,s,gg)){fS.wxVkey=1
+}
+var cT=_v()
+_(oR,cT)
+if(_oz(z,3,e,s,gg)){cT.wxVkey=1
+}
+fS.wxXCkey=1
+cT.wxXCkey=1
+_(r,oR)
 return r
 }
 e_[x[1]]={f:m1,j:[],i:[],ti:[],ic:[]}
 d_[x[2]]={}
 var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
+var oV=_n('view')
+_rz(z,oV,'class',0,e,s,gg)
+var oX=_mz(z,'view',['bindtap',1,'bindtouchcancel',1,'bindtouchend',2,'bindtouchmove',3,'bindtouchstart',4,'class',5,'data-event-opts',6,'style',7],[],e,s,gg)
+var lY=_n('slot')
+_(oX,lY)
+_(oV,oX)
+var cW=_v()
+_(oV,cW)
+if(_oz(z,9,e,s,gg)){cW.wxVkey=1
+}
+cW.wxXCkey=1
+_(r,oV)
 return r
 }
 e_[x[2]]={f:m2,j:[],i:[],ti:[],ic:[]}
 d_[x[3]]={}
 var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
+var t1=_n('view')
+_rz(z,t1,'class',0,e,s,gg)
+var o6=_n('slot')
+_(t1,o6)
+var e2=_v()
+_(t1,e2)
+if(_oz(z,1,e,s,gg)){e2.wxVkey=1
+}
+var b3=_v()
+_(t1,b3)
+if(_oz(z,2,e,s,gg)){b3.wxVkey=1
+}
+var o4=_v()
+_(t1,o4)
+if(_oz(z,3,e,s,gg)){o4.wxVkey=1
+}
+var x5=_v()
+_(t1,x5)
+if(_oz(z,4,e,s,gg)){x5.wxVkey=1
+}
+e2.wxXCkey=1
+b3.wxXCkey=1
+o4.wxXCkey=1
+x5.wxXCkey=1
+_(r,t1)
 return r
 }
 e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
+d_[x[4]]={}
+var m4=function(e,s,r,gg){
+var z=gz$gwx_5()
+return r
+}
+e_[x[4]]={f:m4,j:[],i:[],ti:[],ic:[]}
+d_[x[5]]={}
+var m5=function(e,s,r,gg){
+var z=gz$gwx_6()
+var h9=_n('view')
+_rz(z,h9,'class',0,e,s,gg)
+var o0=_v()
+_(h9,o0)
+var cAB=function(lCB,oBB,aDB,gg){
+var eFB=_v()
+_(aDB,eFB)
+if(_oz(z,5,lCB,oBB,gg)){eFB.wxVkey=1
+var bGB=_mz(z,'uni-card',['bind:__l',6,'extra',1,'isShadow',2,'note',3,'thumbnail',4,'title',5,'vueId',6,'vueSlots',7],[],lCB,oBB,gg)
+_(eFB,bGB)
+}
+else{eFB.wxVkey=2
+}
+eFB.wxXCkey=1
+eFB.wxXCkey=3
+return aDB
+}
+o0.wxXCkey=4
+_2z(z,3,cAB,e,s,gg,o0,'v','i','i')
+var oHB=_mz(z,'uni-fab',['bind:__l',14,'bind:trigger',1,'content',2,'data-event-opts',3,'direction',4,'horizontal',5,'pattern',6,'vertical',7,'vueId',8],[],e,s,gg)
+_(h9,oHB)
+_(r,h9)
+return r
+}
+e_[x[5]]={f:m5,j:[],i:[],ti:[],ic:[]}
+d_[x[6]]={}
+var m6=function(e,s,r,gg){
+var z=gz$gwx_7()
+return r
+}
+e_[x[6]]={f:m6,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -1158,16 +1356,25 @@ return root;
 __wxAppCode__['app.json']={"pages":["pages/index/index","pages/menu/index","pages/tabBar/index"],"window":{"navigationBarTextStyle":"white","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"tabBar":{"color":"#7A7E83","selectedColor":"#007AFF","borderStyle":"black","backgroundColor":"#F8F8F8","list":[{"pagePath":"pages/index/index","iconPath":"static/tab/tab_love_1.png","selectedIconPath":"static/tab/tab_love.png","text":"Season"},{"pagePath":"pages/menu/index","iconPath":"static/tab/tab_clover_1.png","selectedIconPath":"static/tab/tab_clover.png","text":"Love"},{"pagePath":"pages/tabBar/index","iconPath":"static/tab/tab_key_1.png","selectedIconPath":"static/tab/tab_key.png","text":"Dream"}]},"nvueCompiler":"weex","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"恋爱季","compilerVersion":"2.1.3","usingComponents":{}};
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
+__wxAppCode__['node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card.json']={"usingComponents":{},"component":true};
+__wxAppCode__['node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card.wxml']=$gwx('./node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card.wxml');
+
+__wxAppCode__['node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab.json']={"usingComponents":{},"component":true};
+__wxAppCode__['node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab.wxml']=$gwx('./node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab.wxml');
+
+__wxAppCode__['node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action.json']={"usingComponents":{},"component":true};
+__wxAppCode__['node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action.wxml']=$gwx('./node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action.wxml');
+
 __wxAppCode__['node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot.json']={"usingComponents":{},"component":true};
 __wxAppCode__['node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot.wxml']=$gwx('./node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot.wxml');
 
 __wxAppCode__['pages/index/index.json']={"navigationBarTitleText":"恋爱季","navigationBarBackgroundColor":"#182f59","bounce":"vertical","titleNView":{"buttons":[{"text":"","fontSrc":"/static/logo.png","fontSize":"22px","color":"#182f59"}]},"usingComponents":{"uni-swiper-dot":"/node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot"}};
 __wxAppCode__['pages/index/index.wxml']=$gwx('./pages/index/index.wxml');
 
-__wxAppCode__['pages/menu/index.json']={"navigationBarTitleText":"恋爱季","bounce":"vertical","titleNView":{"buttons":[{"text":"","fontSrc":"/static/logo.png","fontSize":"22px","color":"#182f59"}]},"usingComponents":{}};
+__wxAppCode__['pages/menu/index.json']={"navigationBarTitleText":"恋爱季","bounce":"vertical","titleNView":{"buttons":[{"text":"","fontSrc":"/static/logo.png","fontSize":"22px","color":"#182f59"}]},"usingComponents":{"uni-card":"/node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card","uni-fab":"/node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab"}};
 __wxAppCode__['pages/menu/index.wxml']=$gwx('./pages/menu/index.wxml');
 
-__wxAppCode__['pages/tabBar/index.json']={"navigationBarTitleText":"Dear","bounce":"vertical","titleNView":{"buttons":[{"text":"","fontSrc":"/static/logo.png","fontSize":"22px","color":"#182f59"}]},"usingComponents":{}};
+__wxAppCode__['pages/tabBar/index.json']={"navigationBarTitleText":"Dear","bounce":"vertical","titleNView":{"buttons":[{"text":"","fontSrc":"/static/logo.png","fontSize":"22px","color":"#182f59"}]},"usingComponents":{"uni-swipe-action":"/node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action"}};
 __wxAppCode__['pages/tabBar/index.wxml']=$gwx('./pages/tabBar/index.wxml');
 
 
@@ -1179,170 +1386,176 @@ define('common/runtime.js',function(require, module, exports, window, document, 
 "use strict";
 
 (function (e) {
-  function t(t) {
-    for (var n, o, a = t[0], l = t[1], c = t[2], s = 0, d = []; s < a.length; s++) {
-      o = a[s], u[o] && d.push(u[o][0]), u[o] = 0;
+  function n(n) {
+    for (var o, i, l = n[0], d = n[1], a = n[2], c = 0, s = []; c < l.length; c++) {
+      i = l[c], r[i] && s.push(r[i][0]), r[i] = 0;
     }
 
-    for (n in l) {
-      Object.prototype.hasOwnProperty.call(l, n) && (e[n] = l[n]);
+    for (o in d) {
+      Object.prototype.hasOwnProperty.call(d, o) && (e[o] = d[o]);
     }
 
-    f && f(t);
+    f && f(n);
 
-    while (d.length) {
-      d.shift()();
+    while (s.length) {
+      s.shift()();
     }
 
-    return i.push.apply(i, c || []), r();
+    return u.push.apply(u, a || []), t();
   }
 
-  function r() {
-    for (var e, t = 0; t < i.length; t++) {
-      for (var r = i[t], n = !0, o = 1; o < r.length; o++) {
-        var a = r[o];
-        0 !== u[a] && (n = !1);
+  function t() {
+    for (var e, n = 0; n < u.length; n++) {
+      for (var t = u[n], o = !0, i = 1; i < t.length; i++) {
+        var l = t[i];
+        0 !== r[l] && (o = !1);
       }
 
-      n && (i.splice(t--, 1), e = l(l.s = r[0]));
+      o && (u.splice(n--, 1), e = d(d.s = t[0]));
     }
 
     return e;
   }
 
-  var n = {},
-      o = {
+  var o = {},
+      i = {
     "common/runtime": 0
   },
-      u = {
+      r = {
     "common/runtime": 0
   },
-      i = [];
+      u = [];
 
-  function a(e) {
-    return l.p + "" + e + ".js";
+  function l(e) {
+    return d.p + "" + e + ".js";
   }
 
-  function l(t) {
-    if (n[t]) return n[t].exports;
-    var r = n[t] = {
-      i: t,
+  function d(n) {
+    if (o[n]) return o[n].exports;
+    var t = o[n] = {
+      i: n,
       l: !1,
       exports: {}
     };
-    return e[t].call(r.exports, r, r.exports, l), r.l = !0, r.exports;
+    return e[n].call(t.exports, t, t.exports, d), t.l = !0, t.exports;
   }
 
-  l.e = function (e) {
-    var t = [],
-        r = {
-      "node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot": 1
+  d.e = function (e) {
+    var n = [],
+        t = {
+      "node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot": 1,
+      "node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card": 1,
+      "node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab": 1,
+      "node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action": 1
     };
-    o[e] ? t.push(o[e]) : 0 !== o[e] && r[e] && t.push(o[e] = new Promise(function (t, r) {
-      for (var n = ({
-        "node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot": "node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot"
-      }[e] || e) + ".wxss", u = l.p + n, i = document.getElementsByTagName("link"), a = 0; a < i.length; a++) {
-        var c = i[a],
-            s = c.getAttribute("data-href") || c.getAttribute("href");
-        if ("stylesheet" === c.rel && (s === n || s === u)) return t();
+    i[e] ? n.push(i[e]) : 0 !== i[e] && t[e] && n.push(i[e] = new Promise(function (n, t) {
+      for (var o = ({
+        "node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot": "node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot",
+        "node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card": "node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card",
+        "node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab": "node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab",
+        "node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action": "node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action"
+      }[e] || e) + ".wxss", r = d.p + o, u = document.getElementsByTagName("link"), l = 0; l < u.length; l++) {
+        var a = u[l],
+            c = a.getAttribute("data-href") || a.getAttribute("href");
+        if ("stylesheet" === a.rel && (c === o || c === r)) return n();
       }
 
-      var d = document.getElementsByTagName("style");
+      var s = document.getElementsByTagName("style");
 
-      for (a = 0; a < d.length; a++) {
-        c = d[a], s = c.getAttribute("data-href");
-        if (s === n || s === u) return t();
+      for (l = 0; l < s.length; l++) {
+        a = s[l], c = a.getAttribute("data-href");
+        if (c === o || c === r) return n();
       }
 
       var f = document.createElement("link");
-      f.rel = "stylesheet", f.type = "text/css", f.onload = t, f.onerror = function (t) {
-        var n = t && t.target && t.target.src || u,
-            i = new Error("Loading CSS chunk " + e + " failed.\n(" + n + ")");
-        i.request = n, delete o[e], f.parentNode.removeChild(f), r(i);
-      }, f.href = u;
+      f.rel = "stylesheet", f.type = "text/css", f.onload = n, f.onerror = function (n) {
+        var o = n && n.target && n.target.src || r,
+            u = new Error("Loading CSS chunk " + e + " failed.\n(" + o + ")");
+        u.request = o, delete i[e], f.parentNode.removeChild(f), t(u);
+      }, f.href = r;
       var p = document.getElementsByTagName("head")[0];
       p.appendChild(f);
     }).then(function () {
-      o[e] = 0;
+      i[e] = 0;
     }));
-    var n = u[e];
-    if (0 !== n) if (n) t.push(n[2]);else {
-      var i = new Promise(function (t, r) {
-        n = u[e] = [t, r];
+    var o = r[e];
+    if (0 !== o) if (o) n.push(o[2]);else {
+      var u = new Promise(function (n, t) {
+        o = r[e] = [n, t];
       });
-      t.push(n[2] = i);
-      var c,
-          s = document.createElement("script");
-      s.charset = "utf-8", s.timeout = 120, l.nc && s.setAttribute("nonce", l.nc), s.src = a(e), c = function c(t) {
-        s.onerror = s.onload = null, clearTimeout(d);
-        var r = u[e];
+      n.push(o[2] = u);
+      var a,
+          c = document.createElement("script");
+      c.charset = "utf-8", c.timeout = 120, d.nc && c.setAttribute("nonce", d.nc), c.src = l(e), a = function a(n) {
+        c.onerror = c.onload = null, clearTimeout(s);
+        var t = r[e];
 
-        if (0 !== r) {
-          if (r) {
-            var n = t && ("load" === t.type ? "missing" : t.type),
-                o = t && t.target && t.target.src,
-                i = new Error("Loading chunk " + e + " failed.\n(" + n + ": " + o + ")");
-            i.type = n, i.request = o, r[1](i);
+        if (0 !== t) {
+          if (t) {
+            var o = n && ("load" === n.type ? "missing" : n.type),
+                i = n && n.target && n.target.src,
+                u = new Error("Loading chunk " + e + " failed.\n(" + o + ": " + i + ")");
+            u.type = o, u.request = i, t[1](u);
           }
 
-          u[e] = void 0;
+          r[e] = void 0;
         }
       };
-      var d = setTimeout(function () {
-        c({
+      var s = setTimeout(function () {
+        a({
           type: "timeout",
-          target: s
+          target: c
         });
       }, 12e4);
-      s.onerror = s.onload = c, document.head.appendChild(s);
+      c.onerror = c.onload = a, document.head.appendChild(c);
     }
-    return Promise.all(t);
-  }, l.m = e, l.c = n, l.d = function (e, t, r) {
-    l.o(e, t) || Object.defineProperty(e, t, {
+    return Promise.all(n);
+  }, d.m = e, d.c = o, d.d = function (e, n, t) {
+    d.o(e, n) || Object.defineProperty(e, n, {
       enumerable: !0,
-      get: r
+      get: t
     });
-  }, l.r = function (e) {
+  }, d.r = function (e) {
     "undefined" !== typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
       value: "Module"
     }), Object.defineProperty(e, "__esModule", {
       value: !0
     });
-  }, l.t = function (e, t) {
-    if (1 & t && (e = l(e)), 8 & t) return e;
-    if (4 & t && "object" === typeof e && e && e.__esModule) return e;
-    var r = Object.create(null);
-    if (l.r(r), Object.defineProperty(r, "default", {
+  }, d.t = function (e, n) {
+    if (1 & n && (e = d(e)), 8 & n) return e;
+    if (4 & n && "object" === typeof e && e && e.__esModule) return e;
+    var t = Object.create(null);
+    if (d.r(t), Object.defineProperty(t, "default", {
       enumerable: !0,
       value: e
-    }), 2 & t && "string" != typeof e) for (var n in e) {
-      l.d(r, n, function (t) {
-        return e[t];
-      }.bind(null, n));
+    }), 2 & n && "string" != typeof e) for (var o in e) {
+      d.d(t, o, function (n) {
+        return e[n];
+      }.bind(null, o));
     }
-    return r;
-  }, l.n = function (e) {
-    var t = e && e.__esModule ? function () {
+    return t;
+  }, d.n = function (e) {
+    var n = e && e.__esModule ? function () {
       return e["default"];
     } : function () {
       return e;
     };
-    return l.d(t, "a", t), t;
-  }, l.o = function (e, t) {
-    return Object.prototype.hasOwnProperty.call(e, t);
-  }, l.p = "/", l.oe = function (e) {
+    return d.d(n, "a", n), n;
+  }, d.o = function (e, n) {
+    return Object.prototype.hasOwnProperty.call(e, n);
+  }, d.p = "/", d.oe = function (e) {
     throw console.error(e), e;
   };
-  var c = global["webpackJsonp"] = global["webpackJsonp"] || [],
-      s = c.push.bind(c);
-  c.push = t, c = c.slice();
+  var a = global["webpackJsonp"] = global["webpackJsonp"] || [],
+      c = a.push.bind(a);
+  a.push = n, a = a.slice();
 
-  for (var d = 0; d < c.length; d++) {
-    t(c[d]);
+  for (var s = 0; s < a.length; s++) {
+    n(a[s]);
   }
 
-  var f = s;
-  r();
+  var f = c;
+  t();
 })([]);
 });
 define('common/vendor.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -1363,6 +1576,508 @@ require('./common/main.js')
 });
 require('app.js');
 
+__wxRoute = 'node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card';__wxRouteBegin = true;__wxAppCurrentFile__ = 'node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card.js';
+
+define('node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+"use strict";
+
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card"], {
+  "1d0d": function d0d(t, e, n) {},
+  "4fad": function fad(t, e, n) {
+    "use strict";
+
+    n.r(e);
+    var u = n("6b13"),
+        a = n("ec21");
+
+    for (var i in a) {
+      "default" !== i && function (t) {
+        n.d(e, t, function () {
+          return a[t];
+        });
+      }(i);
+    }
+
+    n("e9b0");
+    var r = n("2877"),
+        l = Object(r["a"])(a["default"], u["a"], u["b"], !1, null, null, null);
+    e["default"] = l.exports;
+  },
+  "6b13": function b13(t, e, n) {
+    "use strict";
+
+    var u = function u() {
+      var t = this,
+          e = t.$createElement;
+      t._self._c;
+    },
+        a = [];
+
+    n.d(e, "a", function () {
+      return u;
+    }), n.d(e, "b", function () {
+      return a;
+    });
+  },
+  af00: function af00(t, e, n) {
+    "use strict";
+
+    Object.defineProperty(e, "__esModule", {
+      value: !0
+    }), e.default = void 0;
+    var u = {
+      name: "UniCard",
+      props: {
+        title: {
+          type: String,
+          default: ""
+        },
+        extra: {
+          type: String,
+          default: ""
+        },
+        note: {
+          type: String,
+          default: ""
+        },
+        thumbnail: {
+          type: String,
+          default: ""
+        },
+        mode: {
+          type: String,
+          default: "basic"
+        },
+        isFull: {
+          type: Boolean,
+          default: !1
+        },
+        isShadow: {
+          type: Boolean,
+          default: !1
+        }
+      },
+      methods: {
+        onClick: function onClick() {
+          this.$emit("click");
+        }
+      }
+    };
+    e.default = u;
+  },
+  e9b0: function e9b0(t, e, n) {
+    "use strict";
+
+    var u = n("1d0d"),
+        a = n.n(u);
+    a.a;
+  },
+  ec21: function ec21(t, e, n) {
+    "use strict";
+
+    n.r(e);
+    var u = n("af00"),
+        a = n.n(u);
+
+    for (var i in u) {
+      "default" !== i && function (t) {
+        n.d(e, t, function () {
+          return u[t];
+        });
+      }(i);
+    }
+
+    e["default"] = a.a;
+  }
+}]);
+;
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push(['node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card-create-component', {
+  'node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card-create-component': function nodeModulesDcloudioUniUiLibUniCardUniCardCreateComponent(module, exports, __webpack_require__) {
+    __webpack_require__('6e42')['createComponent'](__webpack_require__("4fad"));
+  }
+}, [['node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card-create-component']]]);
+});
+require('node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card.js');
+__wxRoute = 'node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab';__wxRouteBegin = true;__wxAppCurrentFile__ = 'node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab.js';
+
+define('node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+"use strict";
+
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab"], {
+  "194e": function e(t, i, n) {
+    "use strict";
+
+    var o = function o() {
+      var t = this,
+          i = t.$createElement;
+      t._self._c;
+    },
+        e = [];
+
+    n.d(i, "a", function () {
+      return o;
+    }), n.d(i, "b", function () {
+      return e;
+    });
+  },
+  "9eb5": function eb5(t, i, n) {},
+  "9f6d": function f6d(t, i, n) {
+    "use strict";
+
+    (function (t) {
+      Object.defineProperty(i, "__esModule", {
+        value: !0
+      }), i.default = void 0;
+      var n = {
+        name: "UniFab",
+        props: {
+          pattern: {
+            type: Object,
+            default: function _default() {
+              return {};
+            }
+          },
+          horizontal: {
+            type: String,
+            default: "left"
+          },
+          vertical: {
+            type: String,
+            default: "bottom"
+          },
+          direction: {
+            type: String,
+            default: "horizontal"
+          },
+          content: {
+            type: Array,
+            default: function _default() {
+              return [];
+            }
+          },
+          show: {
+            type: Boolean,
+            default: !1
+          }
+        },
+        data: function data() {
+          return {
+            fabShow: !1,
+            flug: !0,
+            isShow: !1,
+            styles: {
+              color: "#3c3e49",
+              selectedColor: "#007AFF",
+              backgroundColor: "#fff",
+              buttonColor: "#3c3e49"
+            }
+          };
+        },
+        computed: {
+          contentWidth: function contentWidth(i) {
+            return t.upx2px(110 * (this.content.length + 1) + 20) + "px";
+          },
+          contentWidthMin: function contentWidthMin() {
+            return t.upx2px(110) + "px";
+          },
+          boxWidth: function boxWidth() {
+            return this.getPosition(3, "horizontal");
+          },
+          boxHeight: function boxHeight() {
+            return this.getPosition(3, "vertical");
+          },
+          leftBottom: function leftBottom() {
+            return this.getPosition(0, "left", "bottom");
+          },
+          rightBottom: function rightBottom() {
+            return this.getPosition(0, "right", "bottom");
+          },
+          leftTop: function leftTop() {
+            return this.getPosition(0, "left", "top");
+          },
+          rightTop: function rightTop() {
+            return this.getPosition(0, "right", "top");
+          },
+          flexDirectionStart: function flexDirectionStart() {
+            return this.getPosition(1, "vertical", "top");
+          },
+          flexDirectionEnd: function flexDirectionEnd() {
+            return this.getPosition(1, "vertical", "bottom");
+          },
+          horizontalLeft: function horizontalLeft() {
+            return this.getPosition(2, "horizontal", "left");
+          },
+          horizontalRight: function horizontalRight() {
+            return this.getPosition(2, "horizontal", "right");
+          }
+        },
+        watch: {
+          pattern: function pattern(t, i) {
+            console.log(JSON.stringify(t), " at node_modules\\@dcloudio\\uni-ui\\lib\\uni-fab\\uni-fab.vue:156"), this.styles = Object.assign({}, this.styles, t);
+          }
+        },
+        created: function created() {
+          this.isShow = this.show, 0 === this.top && (this.fabShow = !0), this.styles = Object.assign({}, this.styles, this.pattern);
+        },
+        methods: {
+          _onClick: function _onClick() {
+            this.isShow = !this.isShow;
+          },
+          open: function open() {
+            this.isShow = !0;
+          },
+          close: function close() {
+            this.isShow = !1;
+          },
+          _onItemClick: function _onItemClick(t, i) {
+            this.$emit("trigger", {
+              index: t,
+              item: i
+            });
+          },
+          getPosition: function getPosition(t, i, n) {
+            return 0 === t ? this.horizontal === i && this.vertical === n : 1 === t ? this.direction === i && this.vertical === n : 2 === t ? this.direction === i && this.horizontal === n : this.isShow && this.direction === i ? this.contentWidth : this.contentWidthMin;
+          }
+        }
+      };
+      i.default = n;
+    }).call(this, n("6e42")["default"]);
+  },
+  a05d: function a05d(t, i, n) {
+    "use strict";
+
+    var o = n("9eb5"),
+        e = n.n(o);
+    e.a;
+  },
+  acd7: function acd7(t, i, n) {
+    "use strict";
+
+    n.r(i);
+    var o = n("194e"),
+        e = n("f2b0");
+
+    for (var r in e) {
+      "default" !== r && function (t) {
+        n.d(i, t, function () {
+          return e[t];
+        });
+      }(r);
+    }
+
+    n("a05d");
+    var u = n("2877"),
+        s = Object(u["a"])(e["default"], o["a"], o["b"], !1, null, "171fec07", null);
+    i["default"] = s.exports;
+  },
+  f2b0: function f2b0(t, i, n) {
+    "use strict";
+
+    n.r(i);
+    var o = n("9f6d"),
+        e = n.n(o);
+
+    for (var r in o) {
+      "default" !== r && function (t) {
+        n.d(i, t, function () {
+          return o[t];
+        });
+      }(r);
+    }
+
+    i["default"] = e.a;
+  }
+}]);
+;
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push(['node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab-create-component', {
+  'node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab-create-component': function nodeModulesDcloudioUniUiLibUniFabUniFabCreateComponent(module, exports, __webpack_require__) {
+    __webpack_require__('6e42')['createComponent'](__webpack_require__("acd7"));
+  }
+}, [['node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab-create-component']]]);
+});
+require('node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab.js');
+__wxRoute = 'node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action';__wxRouteBegin = true;__wxAppCurrentFile__ = 'node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action.js';
+
+define('node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+"use strict";
+
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action"], {
+  "5fb9": function fb9(t, i, n) {
+    "use strict";
+
+    n.r(i);
+    var s = n("d7f4"),
+        e = n("f44c");
+
+    for (var o in e) {
+      "default" !== o && function (t) {
+        n.d(i, t, function () {
+          return e[t];
+        });
+      }(o);
+    }
+
+    n("8336");
+    var a = n("2877"),
+        h = Object(a["a"])(e["default"], s["a"], s["b"], !1, null, null, null);
+    i["default"] = h.exports;
+  },
+  8336: function _(t, i, n) {
+    "use strict";
+
+    var s = n("fa04"),
+        e = n.n(s);
+    e.a;
+  },
+  "8a6d": function a6d(t, i, n) {
+    "use strict";
+
+    (function (t) {
+      Object.defineProperty(i, "__esModule", {
+        value: !0
+      }), i.default = void 0;
+      var n = {
+        name: "UniSwipeAction",
+        props: {
+          isDrag: {
+            type: Boolean,
+            default: !1
+          },
+          isOpened: {
+            type: Boolean,
+            default: !1
+          },
+          disabled: {
+            type: Boolean,
+            default: !1
+          },
+          autoClose: {
+            type: Boolean,
+            default: !0
+          },
+          options: {
+            type: Array,
+            default: function _default() {
+              return [];
+            }
+          }
+        },
+        data: function data() {
+          var t = "Uni_".concat(Math.ceil(1e6 * Math.random()).toString(36));
+          return {
+            elId: t,
+            isShowBtn: !1,
+            transformX: "translateX(0px)"
+          };
+        },
+        watch: {
+          isOpened: function isOpened(t, i) {
+            this.isShowBtn = !!t, this.endMove();
+          }
+        },
+        created: function created() {
+          this.direction = "", this.startX = 0, this.startY = 0, this.btnGroupWidth = 0, this.isMoving = !1, this.startTime = 0;
+        },
+        onReady: function onReady() {
+          this.getSize();
+        },
+        methods: {
+          getSize: function getSize() {
+            var i = this;
+            t.createSelectorQuery().in(this).select("#".concat(this.elId)).boundingClientRect().exec(function (t) {
+              i.btnGroupWidth = t[0].width;
+            }), !0 === this.isOpened && (this.isShowBtn = !0, this.endMove());
+          },
+          bindClickBtn: function bindClickBtn(t, i) {
+            this.$emit("click", {
+              text: t.text,
+              style: t.style,
+              index: i
+            });
+          },
+          bindClickCont: function bindClickCont(t) {
+            this.isShowBtn && !0 === this.autoClose && (this.isShowBtn = !1, this.endMove());
+          },
+          touchStart: function touchStart(t) {
+            this.startTime = t.timeStamp, this.startX = t.touches[0].pageX, this.startY = t.touches[0].pageY;
+          },
+          touchMove: function touchMove(t) {
+            if ("Y" !== this.direction && !0 !== this.disabled) {
+              var i = t.touches[0].pageY - this.startY,
+                  n = t.touches[0].pageX - this.startX;
+              if (!this.isMoving && Math.abs(i) > Math.abs(n)) this.direction = "Y";else if (this.direction = n > 0 ? "right" : "left", this.isMoving = !0, this.isDrag) {
+                var s = this.isShowBtn ? -this.btnGroupWidth : 0;
+                if (s + n >= 0) return void (this.transformX = "translateX(0px)");
+                if (-s - n >= this.btnGroupWidth) return void (this.transformX = "translateX(".concat(-this.btnGroupWidth, "px)"));
+                s - n > 0 ? this.transformX = "translateX(".concat(n, "px)") : n >= -this.btnGroupWidth && (this.transformX = "translateX(".concat(n - this.btnGroupWidth, "px)"));
+              }
+            }
+          },
+          touchEnd: function touchEnd(t) {
+            if (this.isMoving = !1, "right" === this.direction || "left" === this.direction) {
+              if (this.isDrag) {
+                var i = Math.abs(Number(this.transformX.slice(11, -3))),
+                    n = t.timeStamp - this.startTime;
+                this.isShowBtn = i >= this.btnGroupWidth / 2, n > 50 && n < 300 && i > 20 && ("right" === this.direction ? this.isShowBtn = !1 : this.isShowBtn = !0);
+              } else "right" === this.direction ? this.isShowBtn = !1 : this.isShowBtn = !0;
+
+              this.endMove();
+            } else this.direction = "";
+          },
+          endMove: function endMove() {
+            "Y" !== this.direction && !0 !== this.disabled ? (this.isShowBtn ? (this.transformX = "translateX(".concat(-this.btnGroupWidth, "px)"), this.$emit("opened")) : (this.transformX = "translateX(0px)", this.$emit("closed")), this.direction = "") : this.direction = "";
+          },
+          close: function close() {
+            this.isShowBtn = !1, this.endMove();
+          }
+        }
+      };
+      i.default = n;
+    }).call(this, n("6e42")["default"]);
+  },
+  d7f4: function d7f4(t, i, n) {
+    "use strict";
+
+    var s = function s() {
+      var t = this,
+          i = t.$createElement;
+      t._self._c;
+    },
+        e = [];
+
+    n.d(i, "a", function () {
+      return s;
+    }), n.d(i, "b", function () {
+      return e;
+    });
+  },
+  f44c: function f44c(t, i, n) {
+    "use strict";
+
+    n.r(i);
+    var s = n("8a6d"),
+        e = n.n(s);
+
+    for (var o in s) {
+      "default" !== o && function (t) {
+        n.d(i, t, function () {
+          return s[t];
+        });
+      }(o);
+    }
+
+    i["default"] = e.a;
+  },
+  fa04: function fa04(t, i, n) {}
+}]);
+;
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push(['node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action-create-component', {
+  'node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action-create-component': function nodeModulesDcloudioUniUiLibUniSwipeActionUniSwipeActionCreateComponent(module, exports, __webpack_require__) {
+    __webpack_require__('6e42')['createComponent'](__webpack_require__("5fb9"));
+  }
+}, [['node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action-create-component']]]);
+});
+require('node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action.js');
 __wxRoute = 'node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot';__wxRouteBegin = true;__wxAppCurrentFile__ = 'node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot.js';
 
 define('node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -1505,19 +2220,19 @@ require('node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot.js');
 __wxRoute = 'pages/index/index';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/index/index.js';
 
 define('pages/index/index.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/index/index"],{"270c":function(n,t,e){"use strict";e.r(t);var i=e("86c1"),r=e("81ca");for(var o in r)"default"!==o&&function(n){e.d(t,n,function(){return r[n]})}(o);e("338b");var a=e("2877"),u=Object(a["a"])(r["default"],i["a"],i["b"],!1,null,null,null);t["default"]=u.exports},"338b":function(n,t,e){"use strict";var i=e("5bb2"),r=e.n(i);r.a},"5bb2":function(n,t,e){},"81ca":function(n,t,e){"use strict";e.r(t);var i=e("ced6"),r=e.n(i);for(var o in i)"default"!==o&&function(n){e.d(t,n,function(){return i[n]})}(o);t["default"]=r.a},"86c1":function(n,t,e){"use strict";var i=function(){var n=this,t=n.$createElement,e=(n._self._c,n._f("add")(n.time.d)),i=n._f("add")(n.time.h),r=n._f("add")(n.time.m),o=n._f("add")(n.time.s);n.$mp.data=Object.assign({},{$root:{f0:e,f1:i,f2:r,f3:o}})},r=[];e.d(t,"a",function(){return i}),e.d(t,"b",function(){return r})},ced6:function(n,t,e){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var i=function(){return e.e("node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot").then(e.bind(null,"38cb"))},r={components:{uniSwiperDot:i},data:function(){return{time:{d:"",h:"",m:"",s:""},background:["color1","color2","color3"],indicatorDots:!0,autoplay:!0,interval:3500,duration:1e3,info:[{content:"内容 A"},{content:"内容 B"},{content:"内容 C"}],current:0,mode:"long",bannerArrer:[{img:"banner1"},{img:"banner2"},{img:"banner3"}]}},filters:{add:function(n){return n>=10?n:"0"+n}},onLoad:function(){var n=this;setInterval(function(){n.fun()},1e3)},methods:{fun:function(){var n=new Date,t=new Date("2016/12/15"),e=parseInt((n-t)/1e3);this.time.s=e%60,this.time.m=parseInt(e/60)%60,this.time.h=parseInt(e/3600)%24,this.time.d=parseInt(e/86400)},change:function(n){this.current=n.detail.current}}};t.default=r}},[["1c08","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/index/index"],{"0ce0":function(t,e,n){"use strict";var a=function(){var t=this,e=t.$createElement,n=(t._self._c,t._f("add")(t.time.d)),a=t._f("add")(t.time.h),r=t._f("add")(t.time.m),o=t._f("add")(t.time.s),i=t._f("add")(t.graduateount.d),u=t._f("add")(t.graduateount.h),d=t._f("add")(t.graduateount.m),c=t._f("add")(t.graduateount.s);t.$mp.data=Object.assign({},{$root:{f0:n,f1:a,f2:r,f3:o,f4:i,f5:u,f6:d,f7:c}})},r=[];n.d(e,"a",function(){return a}),n.d(e,"b",function(){return r})},"270c":function(t,e,n){"use strict";n.r(e);var a=n("0ce0"),r=n("81ca");for(var o in r)"default"!==o&&function(t){n.d(e,t,function(){return r[t]})}(o);n("338b");var i=n("2877"),u=Object(i["a"])(r["default"],a["a"],a["b"],!1,null,null,null);e["default"]=u.exports},"338b":function(t,e,n){"use strict";var a=n("5bb2"),r=n.n(a);r.a},"5bb2":function(t,e,n){},"81ca":function(t,e,n){"use strict";n.r(e);var a=n("ced6"),r=n.n(a);for(var o in a)"default"!==o&&function(t){n.d(e,t,function(){return a[t]})}(o);e["default"]=r.a},ced6:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a=function(){return n.e("node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot").then(n.bind(null,"38cb"))},r={components:{uniSwiperDot:a},data:function(){return{time:{d:"",h:"",m:"",s:""},graduateount:{d:"",h:"",m:"",s:""},background:["color1","color2","color3"],indicatorDots:!0,autoplay:!0,interval:3500,duration:1e3,info:[{content:"内容 A"},{content:"内容 B"},{content:"内容 C"}],current:0,mode:"long",bannerArrer:[{img:"banner1",mode:"aspectFit"},{img:"banner2",mode:"aspectFit"},{img:"banner3",mode:"aspectFit"}]}},filters:{add:function(t){return t>=10?t:"0"+t}},onLoad:function(){var t=this;setInterval(function(){t.fun(),t.fun1()},1e3),navigator.geolocation.getCurrentPosition(function(t){var e="",n="";e=t.coords.latitude,n=t.coords.longitude,console.log("纬度:"+e+",经度:"+n," at pages\\index\\index.vue:117"),localStorage.setItem("gps",JSON.stringify({longitude:n,latitude:e,address:""}))},function(t){switch(t.code){case t.PERMISSION_DENIED:alert("定位失败,拒绝请求地理定位,请退出刷新重试");break;case t.POSITION_UNAVAILABLE:alert("定位失败,位置信息是不可用,请退出刷新重试");break;case t.TIMEOUT:alert("定位失败,请求获取用户位置超时,请退出刷新重试");break;case t.UNKNOWN_ERROR:alert("定位失败,定位系统失效,请退出刷新重试");break}},{enableHighAcuracy:!0,timeout:5e3,maximumAge:3e3})},methods:{fun:function(){var t=new Date,e=new Date("2016/12/15"),n=parseInt((t-e)/1e3);this.time.s=n%60,this.time.m=parseInt(n/60)%60,this.time.h=parseInt(n/3600)%24,this.time.d=parseInt(n/86400)},fun1:function(){var t=new Date,e=new Date("2019/12/22"),n=parseInt((e-t)/1e3);this.graduateount.s=n%60,this.graduateount.m=parseInt(n/60)%60,this.graduateount.h=parseInt(n/3600)%24,this.graduateount.d=parseInt(n/86400)},change:function(t){this.current=t.detail.current}}};e.default=r}},[["1c08","common/runtime","common/vendor"]]]);
 });
 require('pages/index/index.js');
 __wxRoute = 'pages/menu/index';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/menu/index.js';
 
 define('pages/menu/index.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/menu/index"],{1616:function(n,t,e){"use strict";e.r(t);var u=e("5c3d"),r=e("6e59");for(var a in r)"default"!==a&&function(n){e.d(t,n,function(){return r[n]})}(a);e("be30");var o=e("2877"),c=Object(o["a"])(r["default"],u["a"],u["b"],!1,null,null,null);t["default"]=c.exports},"5c3d":function(n,t,e){"use strict";var u=function(){var n=this,t=n.$createElement;n._self._c},r=[];e.d(t,"a",function(){return u}),e.d(t,"b",function(){return r})},"6e59":function(n,t,e){"use strict";e.r(t);var u=e("e663"),r=e.n(u);for(var a in u)"default"!==a&&function(n){e.d(t,n,function(){return u[n]})}(a);t["default"]=r.a},ad28:function(n,t,e){},be30:function(n,t,e){"use strict";var u=e("ad28"),r=e.n(u);r.a},e663:function(n,t,e){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var u={data:function(){return{}},filters:{},onLoad:function(){},methods:{}};t.default=u}},[["a921","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/menu/index"],{"06a2":function(n,t,e){"use strict";var i=function(){var n=this,t=n.$createElement;n._self._c},o=[];e.d(t,"a",function(){return i}),e.d(t,"b",function(){return o})},1616:function(n,t,e){"use strict";e.r(t);var i=e("06a2"),o=e("6e59");for(var a in o)"default"!==a&&function(n){e.d(t,n,function(){return o[n]})}(a);e("be30");var c=e("2877"),u=Object(c["a"])(o["default"],i["a"],i["b"],!1,null,null,null);t["default"]=u.exports},"6e59":function(n,t,e){"use strict";e.r(t);var i=e("e663"),o=e.n(i);for(var a in i)"default"!==a&&function(n){e.d(t,n,function(){return i[n]})}(a);t["default"]=o.a},ad28:function(n,t,e){},be30:function(n,t,e){"use strict";var i=e("ad28"),o=e.n(i);o.a},e663:function(n,t,e){"use strict";(function(n){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var i=function(){return e.e("node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card").then(e.bind(null,"4fad"))},o=function(){return e.e("node-modules/@dcloudio/uni-ui/lib/uni-fab/uni-fab").then(e.bind(null,"acd7"))},a={components:{uniCard:i,uniFab:o},data:function(){return{uniCardList:[{title:"标题",thumbnail:"https://img-cdn-qiniu.dcloud.net.cn/new-page/uni.png",extra:"new Date",note:"",msg:"内容主体"},{title:"标题",thumbnail:"https://img-cdn-qiniu.dcloud.net.cn/new-page/uni.png",extra:"new Date",note:"Tips",msg:"内容主体"}],horizontal:"right",vertical:"bottom",direction:"vertical",pattern:{color:"#7A7E83",backgroundColor:"#fff",selectedColor:"#007AFF",buttonColor:"#007AFF"},content:[{iconPath:"/static/component.png",selectedIconPath:"/static/componentHL.png",text:"组件",active:!1},{iconPath:"/static/api.png",selectedIconPath:"/static/apiHL.png",text:"API",active:!1},{iconPath:"/static/template.png",selectedIconPath:"/static/templateHL.png",text:"模版",active:!1}]}},filters:{},onLoad:function(){},methods:{trigger:function(t){console.log(t,"81"," at pages\\menu\\index.vue:81"),this.content.map(function(n){console.log(n,"83"," at pages\\menu\\index.vue:83"),n.active=!1}),n.showModal({title:"提示",content:"您".concat(this.content[t.index].active?"选中了":"取消了").concat(t.item.text),success:function(n){n.confirm?console.log("用户点击确定"," at pages\\menu\\index.vue:93"):n.cancel&&console.log("用户点击取消"," at pages\\menu\\index.vue:95")}})}}};t.default=a}).call(this,e("6e42")["default"])}},[["a921","common/runtime","common/vendor"]]]);
 });
 require('pages/menu/index.js');
 __wxRoute = 'pages/tabBar/index';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/tabBar/index.js';
 
 define('pages/tabBar/index.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/tabBar/index"],{"0258":function(n,t,e){"use strict";e.r(t);var u=e("0d7b"),r=e("6d9f");for(var a in r)"default"!==a&&function(n){e.d(t,n,function(){return r[n]})}(a);e("19f1");var o=e("2877"),f=Object(o["a"])(r["default"],u["a"],u["b"],!1,null,null,null);t["default"]=f.exports},"0d7b":function(n,t,e){"use strict";var u=function(){var n=this,t=n.$createElement;n._self._c},r=[];e.d(t,"a",function(){return u}),e.d(t,"b",function(){return r})},"19f1":function(n,t,e){"use strict";var u=e("ee6d"),r=e.n(u);r.a},"6d9f":function(n,t,e){"use strict";e.r(t);var u=e("7642"),r=e.n(u);for(var a in u)"default"!==a&&function(n){e.d(t,n,function(){return u[n]})}(a);t["default"]=r.a},7642:function(n,t,e){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var u={data:function(){return{}},filters:{},onLoad:function(){},methods:{}};t.default=u},ee6d:function(n,t,e){}},[["06ab","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/tabBar/index"],{"0258":function(n,t,e){"use strict";e.r(t);var u=e("3fd4"),i=e("6d9f");for(var o in i)"default"!==o&&function(n){e.d(t,n,function(){return i[n]})}(o);e("19f1");var r=e("2877"),a=Object(r["a"])(i["default"],u["a"],u["b"],!1,null,null,null);t["default"]=a.exports},"19f1":function(n,t,e){"use strict";var u=e("ee6d"),i=e.n(u);i.a},"3fd4":function(n,t,e){"use strict";var u=function(){var n=this,t=n.$createElement;n._self._c},i=[];e.d(t,"a",function(){return u}),e.d(t,"b",function(){return i})},"6d9f":function(n,t,e){"use strict";e.r(t);var u=e("7642"),i=e.n(u);for(var o in u)"default"!==o&&function(n){e.d(t,n,function(){return u[n]})}(o);t["default"]=i.a},7642:function(n,t,e){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var u=function(){return e.e("node-modules/@dcloudio/uni-ui/lib/uni-swipe-action/uni-swipe-action").then(e.bind(null,"5fb9"))},i={components:{uniSwipeAction:u},data:function(){return{}},filters:{},onLoad:function(){},methods:{}};t.default=i},ee6d:function(n,t,e){}},[["06ab","common/runtime","common/vendor"]]]);
 });
 require('pages/tabBar/index.js');
 ;(function(global) {
