@@ -11,7 +11,7 @@
 			</view>
 		</view>
 		<!-- 计时器 -->
-		<ul>
+		<ul class='content'>
 			<li style="background-color: #ef2f3c">
 				<span>Day</span>
 				<span>{{ time.d | add() }}</span>
@@ -30,7 +30,7 @@
 			</li>
 		</ul>
 
-		<view class="graduateount" style="margin: 40rpx 0 40rpx;">
+		<view class="graduateount" style="margin: 80rpx 0 40rpx;" v-show=" graduateount.d && graduateount.h && graduateount.m && graduateount.s">
 			<h3 style='text-align: center;font-size: 36rpx;color: #ccc;'>灰心生失望，失望生动摇，动摇生失败。</h3>
 			<ul style='font-size: 24rpx;color: #fff;'>
 				<li>{{ graduateount.d | add() }}</li>
@@ -39,6 +39,9 @@
 				<li>{{ graduateount.s | add() }}</li>
 			</ul>
 		</view>
+		
+		
+		
 	</view>
 </template>
 
@@ -50,18 +53,9 @@ export default {
 	},
 	data() {
 		return {
-			time: {
-				d: '',
-				h: '',
-				m: '',
-				s: ''
-			},
-			graduateount:{
-				d: '',
-				h: '',
-				m: '',
-				s: ''
-			},
+			time: {},
+			graduateount:{},
+			backTime:{},
 			background: ['color1', 'color2', 'color3'],
 			indicatorDots: true,
 			autoplay: true,
@@ -151,36 +145,24 @@ export default {
 		fun() {
 			let presentTime = new Date();
 			let endTime = new Date('2016/12/15');
-			let T = parseInt((presentTime - endTime) / 1000);
-			this.time.s = T % 60;
-			this.time.m = parseInt(T / 60) % 60;
-			this.time.h = parseInt(T / 3600) % 24;
-			this.time.d = parseInt(T / (3600 * 24));
+			this.time = this.getCommon(presentTime,endTime)
 		},
 		fun1() {
 			let presentTime = new Date();
 			let endTime = new Date('2019/12/22');
-			let T = parseInt((endTime - presentTime ) / 1000);
-			this.graduateount.s = T % 60;
-			this.graduateount.m = parseInt(T / 60) % 60;
-			this.graduateount.h = parseInt(T / 3600) % 24;
-			this.graduateount.d = parseInt(T / (3600 * 24));
+			this.graduateount = this.getCommon(presentTime,endTime)
 		},
-		
-		
 		
 		getCommon(presentTime,endTime){
 			let p = presentTime || new Date();
-			let e = new Date('2019/12/22');
-			let s,m,h,d;
-			let T = parseInt((e - p ) / 1000);
-			s = T % 60;
-			m = parseInt(T / 60) % 60;
-			h = parseInt(T / 3600) % 24;
-			d = parseInt(T / (3600 * 24));
-			
-			
-			
+			let e = endTime;
+			let always = {};
+			let T = parseInt((e > p?(e-p):(p-e) ) / 1000);
+			always.s = T % 60;
+			always.m = parseInt(T / 60) % 60;
+			always.h = parseInt(T / 3600) % 24;
+			always.d = parseInt(T / (3600 * 24));
+			return always
 		},
 		change(e) {
 			this.current = e.detail.current;
@@ -215,12 +197,12 @@ li {
 	border-radius: 20rpx;
 }
 
-ul li span:nth-child(1) {
+.content li span:nth-child(1) {
 	margin-top: 5rpx;
 	font-size: 24rpx;
 }
 
-ul li span:nth-child(2) {
+.content li span:nth-child(2) {
 	display: block;
 	font-size: 60rpx;
 }
@@ -241,4 +223,8 @@ footer {
 .graduateount li{
 	font-size: 44rpx;
 }
+.graduateount ul{
+	padding-top: 35rpx;
+}
+
 </style>

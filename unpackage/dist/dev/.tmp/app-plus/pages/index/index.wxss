@@ -16,11 +16,11 @@
 	font-family: '\6977\4E66';
 	border-radius: 20rpx;
 }
-._ul ._li ._span:nth-child(1) {
+.content ._li ._span:nth-child(1) {
 	margin-top: 5rpx;
 	font-size: 24rpx;
 }
-._ul ._li ._span:nth-child(2) {
+.content ._li ._span:nth-child(2) {
 	display: block;
 	font-size: 60rpx;
 }
@@ -38,4 +38,8 @@
 .graduateount ._li{
 	font-size: 44rpx;
 }
+.graduateount ._ul{
+	padding-top: 35rpx;
+}
+
 
